@@ -9,9 +9,113 @@ Supports three scoring modes (Strategy pattern):
   - "genre_first"  : Heavily weights genre + mood match
   - "mood_first"   : Heavily weights mood tag + valence match
   - "energy_first" : Heavily weights energy, tempo, and danceability
+
+Also exposes Song, UserProfile, and Recommender classes for
+compatibility with the test suite.
 """
 
 import csv
+from dataclasses import dataclass, field
+from typing import Optional
+
+
+# ---------------------------------------------------------------------------
+# Data classes (used by Recommender class API and tests)
+# ---------------------------------------------------------------------------
+
+@dataclass
+class Song:
+    id: int
+    title: str
+    artist: str
+    genre: str
+    mood: str
+    energy: float
+    tempo_bpm: int
+    danceability: float
+    acousticness: float
+    valence: float = 0.5
+    popularity: int = 70
+    release_decade: str = ""
+    mood_tag: str = ""
+    instrumentalness: float = 0.0
+
+    def to_dict(self) -> dict:
+        return {
+            "title": self.title,
+            "artist": self.artist,
+            "genre": self.genre,
+            "mood": self.mood,
+            "energy": self.energy,
+            "tempo_bpm": self.tempo_bpm,
+            "danceability": self.danceability,
+            "acousticness": self.acousticness,
+            "valence": self.valence,
+            "popularity": self.popularity,
+            "release_decade": self.release_decade,
+            "mood_tag": self.mood_tag,
+            "instrumentalness": self.instrumentalness,
+        }
+
+
+@dataclass
+class UserProfile:
+    favorite_genre: str
+    favorite_mood: str
+    target_energy: float
+    likes_acoustic: bool = False
+    target_danceability: float = 0.5
+    target_acousticness: float = 0.5
+    target_valence: Optional[float] = None
+    target_tempo_bpm: int = 120
+    min_popularity: int = 70
+    preferred_decade: str = ""
+    desired_mood_tag: str = ""
+    wants_instrumental: Optional[bool] = None
+
+    def to_prefs(self) -> dict:
+        prefs = {
+            "favorite_genre": self.favorite_genre,
+            "favorite_mood": self.favorite_mood,
+            "target_energy": self.target_energy,
+            "target_danceability": self.target_danceability,
+            "target_acousticness": self.target_acousticness if self.likes_acoustic else self.target_acousticness,
+            "target_tempo_bpm": self.target_tempo_bpm,
+            "min_popularity": self.min_popularity,
+        }
+        if self.preferred_decade:
+            prefs["preferred_decade"] = self.preferred_decade
+        if self.desired_mood_tag:
+            prefs["desired_mood_tag"] = self.desired_mood_tag
+        if self.target_valence is not None:
+            prefs["target_valence"] = self.target_valence
+        if self.wants_instrumental is not None:
+            prefs["wants_instrumental"] = self.wants_instrumental
+        return prefs
+
+
+class Recommender:
+    """Class-based API wrapping the functional recommender logic."""
+
+    def __init__(self, songs: list[Song]):
+        self.songs = songs
+
+    def recommend(self, user: UserProfile, k: int = 5,
+                  mode: str = "genre_first", diversity: bool = True) -> list[Song]:
+        """Return top-k Song objects sorted by score."""
+        song_dicts = [s.to_dict() for s in self.songs]
+        prefs = user.to_prefs()
+        results = recommend_songs(prefs, song_dicts, k=k, mode=mode, diversity=diversity)
+        # Map results back to Song objects by title
+        title_to_song = {s.title: s for s in self.songs}
+        return [title_to_song[r["title"]] for r in results if r["title"] in title_to_song]
+
+    def explain_recommendation(self, user: UserProfile, song: Song,
+                                mode: str = "genre_first") -> str:
+        """Return a human-readable explanation of why this song was recommended."""
+        prefs = user.to_prefs()
+        _, reasons = score_song(prefs, song.to_dict(), mode=mode)
+        return ", ".join(reasons)
 
 
 # ---------------------------------------------------------------------------
