@@ -1,0 +1,21 @@
+title,artist,genre,mood,energy,tempo_bpm,danceability,acousticness
+Blinding Lights,The Weeknd,pop,happy,0.85,171,0.80,0.10
+Levitating,Dua Lipa,pop,happy,0.82,103,0.90,0.05
+Shivers,Ed Sheeran,pop,happy,0.78,141,0.75,0.20
+Someone Like You,Adele,pop,sad,0.35,67,0.40,0.85
+drivers license,Olivia Rodrigo,pop,sad,0.42,144,0.45,0.70
+Enter Sandman,Metallica,rock,intense,0.95,123,0.50,0.02
+Thunderstruck,AC/DC,rock,intense,0.92,133,0.55,0.01
+Stairway to Heaven,Led Zeppelin,rock,chill,0.55,82,0.35,0.60
+lofi hip hop radio,ChilledCow,lofi,chill,0.25,85,0.60,0.90
+Weightless,Marconi Union,ambient,chill,0.15,60,0.30,0.95
+Uptown Funk,Mark Ronson,funk,happy,0.88,115,0.95,0.15
+Bohemian Rhapsody,Queen,rock,intense,0.70,72,0.40,0.30
+Shape of You,Ed Sheeran,pop,happy,0.65,96,0.83,0.58
+Bad Guy,Billie Eilish,pop,intense,0.43,135,0.70,0.40
+Smells Like Teen Spirit,Nirvana,rock,intense,0.90,117,0.50,0.05
+Clair de Lune,Debussy,classical,chill,0.20,70,0.25,0.98
+Midnight City,M83,electronic,happy,0.75,105,0.65,0.10
+Strobe,Deadmau5,electronic,chill,0.60,128,0.55,0.20
+Sandstorm,Darude,electronic,intense,0.92,136,0.80,0.05
+Lovely,Billie Eilish,pop,sad,0.30,115,0.35,0.75

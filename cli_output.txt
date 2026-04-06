@@ -1,0 +1,153 @@
+✅ Loaded 20 songs from catalog.
+
+================================================================================
+
+🎵 Profile: High-Energy Pop Lover
+   Genre: pop | Mood: happy | Energy: 0.85
+--------------------------------------------------------------------------------
+1. Blinding Lights — The Weeknd
+   Genre: pop | Mood: happy | Energy: 0.85
+   Score: 4.975
+   Reasons: genre match (+2.0), mood match (+1.0), energy proximity (+1.000), danceability proximity (+0.475), acousticness proximity (+0.500)
+
+2. Levitating — Dua Lipa
+   Genre: pop | Mood: happy | Energy: 0.82
+   Score: 4.920
+   Reasons: genre match (+2.0), mood match (+1.0), energy proximity (+0.970), danceability proximity (+0.475), acousticness proximity (+0.475)
+
+3. Shivers — Ed Sheeran
+   Genre: pop | Mood: happy | Energy: 0.78
+   Score: 4.830
+   Reasons: genre match (+2.0), mood match (+1.0), energy proximity (+0.930), danceability proximity (+0.450), acousticness proximity (+0.450)
+
+4. Shape of You — Ed Sheeran
+   Genre: pop | Mood: happy | Energy: 0.65
+   Score: 4.550
+   Reasons: genre match (+2.0), mood match (+1.0), energy proximity (+0.800), danceability proximity (+0.490), acousticness proximity (+0.260)
+
+5. Bad Guy — Billie Eilish
+   Genre: pop | Mood: intense | Energy: 0.43
+   Score: 3.355
+   Reasons: genre match (+2.0), energy proximity (+0.580), danceability proximity (+0.425), acousticness proximity (+0.350)
+
+================================================================================
+
+🎵 Profile: Chill Lofi Listener
+   Genre: lofi | Mood: chill | Energy: 0.25
+--------------------------------------------------------------------------------
+1. lofi hip hop radio — ChilledCow
+   Genre: lofi | Mood: chill | Energy: 0.25
+   Score: 5.000
+   Reasons: genre match (+2.0), mood match (+1.0), energy proximity (+1.000), danceability proximity (+0.500), acousticness proximity (+0.500)
+
+2. Clair de Lune — Debussy
+   Genre: classical | Mood: chill | Energy: 0.2
+   Score: 2.735
+   Reasons: mood match (+1.0), energy proximity (+0.950), danceability proximity (+0.325), acousticness proximity (+0.460)
+
+3. Weightless — Marconi Union
+   Genre: ambient | Mood: chill | Energy: 0.15
+   Score: 2.725
+   Reasons: mood match (+1.0), energy proximity (+0.900), danceability proximity (+0.350), acousticness proximity (+0.475)
+
+4. Stairway to Heaven — Led Zeppelin
+   Genre: rock | Mood: chill | Energy: 0.55
+   Score: 2.425
+   Reasons: mood match (+1.0), energy proximity (+0.700), danceability proximity (+0.375), acousticness proximity (+0.350)
+
+5. Strobe — Deadmau5
+   Genre: electronic | Mood: chill | Energy: 0.6
+   Score: 2.275
+   Reasons: mood match (+1.0), energy proximity (+0.650), danceability proximity (+0.475), acousticness proximity (+0.150)
+
+================================================================================
+
+🎵 Profile: Deep Intense Rock Fan
+   Genre: rock | Mood: intense | Energy: 0.95
+--------------------------------------------------------------------------------
+1. Enter Sandman — Metallica
+   Genre: rock | Mood: intense | Energy: 0.95
+   Score: 4.985
+   Reasons: genre match (+2.0), mood match (+1.0), energy proximity (+1.000), danceability proximity (+0.500), acousticness proximity (+0.485)
+
+2. Smells Like Teen Spirit — Nirvana
+   Genre: rock | Mood: intense | Energy: 0.9
+   Score: 4.950
+   Reasons: genre match (+2.0), mood match (+1.0), energy proximity (+0.950), danceability proximity (+0.500), acousticness proximity (+0.500)
+
+3. Thunderstruck — AC/DC
+   Genre: rock | Mood: intense | Energy: 0.92
+   Score: 4.925
+   Reasons: genre match (+2.0), mood match (+1.0), energy proximity (+0.970), danceability proximity (+0.475), acousticness proximity (+0.480)
+
+4. Bohemian Rhapsody — Queen
+   Genre: rock | Mood: intense | Energy: 0.7
+   Score: 4.575
+   Reasons: genre match (+2.0), mood match (+1.0), energy proximity (+0.750), danceability proximity (+0.450), acousticness proximity (+0.375)
+
+5. Stairway to Heaven — Led Zeppelin
+   Genre: rock | Mood: chill | Energy: 0.55
+   Score: 3.250
+   Reasons: genre match (+2.0), energy proximity (+0.600), danceability proximity (+0.425), acousticness proximity (+0.225)
+
+================================================================================
+
+🎵 Profile: Sad Pop Ballad Seeker
+   Genre: pop | Mood: sad | Energy: 0.35
+--------------------------------------------------------------------------------
+1. Someone Like You — Adele
+   Genre: pop | Mood: sad | Energy: 0.35
+   Score: 4.975
+   Reasons: genre match (+2.0), mood match (+1.0), energy proximity (+1.000), danceability proximity (+0.500), acousticness proximity (+0.475)
+
+2. Lovely — Billie Eilish
+   Genre: pop | Mood: sad | Energy: 0.3
+   Score: 4.900
+   Reasons: genre match (+2.0), mood match (+1.0), energy proximity (+0.950), danceability proximity (+0.475), acousticness proximity (+0.475)
+
+3. drivers license — Olivia Rodrigo
+   Genre: pop | Mood: sad | Energy: 0.42
+   Score: 4.855
+   Reasons: genre match (+2.0), mood match (+1.0), energy proximity (+0.930), danceability proximity (+0.475), acousticness proximity (+0.450)
+
+4. Bad Guy — Billie Eilish
+   Genre: pop | Mood: intense | Energy: 0.43
+   Score: 3.570
+   Reasons: genre match (+2.0), energy proximity (+0.920), danceability proximity (+0.350), acousticness proximity (+0.300)
+
+5. Shape of You — Ed Sheeran
+   Genre: pop | Mood: happy | Energy: 0.65
+   Score: 3.375
+   Reasons: genre match (+2.0), energy proximity (+0.700), danceability proximity (+0.285), acousticness proximity (+0.390)
+
+================================================================================
+
+🎵 Profile: Electronic Dance Enthusiast
+   Genre: electronic | Mood: intense | Energy: 0.9
+--------------------------------------------------------------------------------
+1. Sandstorm — Darude
+   Genre: electronic | Mood: intense | Energy: 0.92
+   Score: 4.980
+   Reasons: genre match (+2.0), mood match (+1.0), energy proximity (+0.980), danceability proximity (+0.500), acousticness proximity (+0.500)
+
+2. Midnight City — M83
+   Genre: electronic | Mood: happy | Energy: 0.75
+   Score: 3.750
+   Reasons: genre match (+2.0), energy proximity (+0.850), danceability proximity (+0.425), acousticness proximity (+0.475)
+
+3. Strobe — Deadmau5
+   Genre: electronic | Mood: chill | Energy: 0.6
+   Score: 3.500
+   Reasons: genre match (+2.0), energy proximity (+0.700), danceability proximity (+0.375), acousticness proximity (+0.425)
+
+4. Smells Like Teen Spirit — Nirvana
+   Genre: rock | Mood: intense | Energy: 0.9
+   Score: 2.850
+   Reasons: mood match (+1.0), energy proximity (+1.000), danceability proximity (+0.350), acousticness proximity (+0.500)
+
+5. Thunderstruck — AC/DC
+   Genre: rock | Mood: intense | Energy: 0.92
+   Score: 2.835
+   Reasons: mood match (+1.0), energy proximity (+0.980), danceability proximity (+0.375), acousticness proximity (+0.480)
+
+================================================================================
